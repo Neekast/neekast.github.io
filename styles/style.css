@@ -1,0 +1,66 @@
+/* GENERAL */
+
+/* implements dark mode */
+html {
+		background:#131516;
+		color: #d8d4cf;
+}
+
+
+
+/* HEADER */
+
+h1 a {
+	text-decoration: none;
+}
+
+h1 {
+	color: red;
+	font-size: 3em;
+	text-align: center;
+}
+
+
+
+/* NAVIGATION */
+
+nav ol a {
+	text-decoration: none;
+}
+
+/* nav text gets bigger when hovered */
+nav a:hover {
+	font-size: 20px;
+}
+
+/* nav boxes */
+nav ol {
+	display: grid;
+	grid-template-columns: 1;
+}
+
+
+/* BODY */
+
+body {
+	width: 500px;
+	margin: 0 auto;
+}
+
+p {
+	border: 2px solid rgb(255, 84, 104)
+	padding: 10px;
+	margin: 10px;
+}
+
+
+
+/* LINKS */
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: red;
+}
